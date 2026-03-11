@@ -1,0 +1,23 @@
+{
+  "name": "ai-assistant-testing-demo",
+  "version": "1.0.0",
+  "description": "Public demo: API-level evaluation patterns for AI assistant testing (grounding, safety, fallback, consistency)",
+  "private": false,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "ai-testing",
+    "playwright",
+    "evaluation",
+    "qa",
+    "assistant-testing"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.3.0"
+  }
+}
